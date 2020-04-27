@@ -1,0 +1,26 @@
+h1,
+h2,
+h3 {
+  color: antiquewhite;
+  text-shadow: 1px 1px black;
+}
+
+ul > li {
+  color: #d3d309;
+  font-weight: 700;
+}
+
+li:nth-child(3) {
+  color: #909;
+  font-weight: 700;
+}
+
+.fancy {
+  font-weight: bold;
+  color: green;
+  font-size: 20pt;
+}
+
+body {
+  background-color: rgb(85, 192, 85);
+}
