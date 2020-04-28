@@ -14,8 +14,15 @@ body {
 }
 
 img {
-  width: 75%;
+  width: 50%;
   border-radius: 10px;
+}
+.stuff img {
+  width: 50px;
+}
+
+span img {
+  width: 25%;
 }
 
 /* H tags are by default bold */
@@ -36,11 +43,23 @@ h3 {
   color: black;
 }
 
+.fa {
+  color: #a11212
+}
+
+
 small {
   color: #909;
 }
 
-/* useless junk
+ol > li{
+  margin-bottom: 1em;
+}
+
+
+
+
+/* may use another day...
 ul > li {
   color: #d3d309;
   font-weight: 700;
